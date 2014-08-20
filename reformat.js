@@ -21,6 +21,11 @@
     $("#search_field").remove();
     $(".post_container").hide();
     $(".post_container:nth-of-type(" + number.toString() + ")").show();
+    var child = $(".post_container:nth-of-type(" + number.toString() + ") .post_container");
+    console.log(child)
+    if ( child !== null) {
+      child.show();
+    }
     window.scroll(0, 0);
   }
 
