@@ -4,12 +4,12 @@ TumblrControllr
 Chrome extension for keyboard shortcuts to navigate Tumblr
 
 ###To use:
-1. Go to Settings -> Dashboard
+1. Go to Settings -> Dashboard on https://www.tumblr.com
 2. Disable endless scrolling
 3. Open up Chrome
 4. Go to chrome://extensions
 5. Check the Developer Mode checkbox on the top right
-6. Click "Load unpacked extension" and select the directory
+6. Click "Load unpacked extension" and select the correct directory
 
 ###Keys: 
 + H - Next post
