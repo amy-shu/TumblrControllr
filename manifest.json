@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tumblr Controllr Extension",
+  "description": "Allows for the use of tumblr.com through keyboard hotkeys.",
+  "version": "1.0",
+
+  "permissions": [
+    "https://tumblr.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"]  
+  },
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_title": "Tumblr Controllr Extension"
+  },
+  "content_scripts": [
+    {
+      "matches":["https://www.tumblr.com/*"],
+      "js": ["jquery.js", "reformat.js"]
+    }
+  ]
+}
