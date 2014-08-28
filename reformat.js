@@ -69,7 +69,7 @@
     }
   });
 
-//like the post once a is preesed, 97
+//like the post once a is pressed, 97
   $(document).bind('keypress', function(e) {
     if(e.keyCode == 97) {
       chrome.runtime.sendMessage({type: "getNum"}, function(response) {
